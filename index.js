@@ -34,3 +34,13 @@ function on(){
 function off(){
     clearInterval(start);
 }
+
+let audio = new Audio("music.mp3");
+function playSound(){
+    audio.play();
+}
+
+function pauseSound(){
+    audio.pause();
+}
+
